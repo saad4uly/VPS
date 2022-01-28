@@ -1,0 +1,210 @@
+.center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.review{
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: -80px;
+    color: black;
+}
+
+.review a:hover{
+    color: gray;
+}
+.contact{
+    margin-top: 100px;
+    margin-bottom: -50px;
+    color: gray;
+}
+
+#gallery{
+    margin-top: -48px;
+    color: gray;
+    font-weight: 700;
+}
+
+
+#about{
+    margin-bottom: -70px;
+    color: gray;
+}
+
+#testimonials{
+    margin-bottom: -50px;
+    color: gray;
+}
+
+#footer{
+    margin-top: -90px;
+}
+
+#update{
+    margin-top: 64px;
+    margin-bottom: -52px;
+    color: grey;
+}
+
+#vikalp{
+    margin-top: -71px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    left: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: rgb(96, 96, 243);
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.centert{
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(103, 103, 243);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.imageupdate{
+    margin: 0px -8px;
+    height: 330px;
+    border-radius: 44px;
+}
+
+@media screen and (max-width: 769px) {
+    .imageupdate{
+      height: 200px;
+      width: 200px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      margin: 10px auto;
+    }
+  }
+
+#vikalpt{
+    font-size: 24px;
+    color: #000122;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+
+.vt{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 18px;
+    text-decoration: underline;
+}
+
+.boxupdate{
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-bottom: -60px;
+    background-color: #e5dffd
+}
+
+.vikalptop{
+    margin-left: -419px;
+    margin-right: 284px;
+    color: rgb(255, 250, 250);
+}
+
+@media screen and (max-width: 650px) {
+    #vikalpt{
+        margin-left: 50px;
+        margin-right: 50px;   
+        font-size: 20px;   
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    .vt{
+        font-size: 30px; 
+    }
+  }  
+
+@media screen and (max-width: 1024px) {
+    .boxupdate{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #vikalpt{
+        margin-left: 45px;
+        margin-right: 39px;
+    }
+}
+@media screen and (max-width: 912px) {
+    #vikalpt{
+        margin-left: 10px;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .boxupdate{
+        margin-left: 16px;
+        margin-right: 14px;
+    }
+}  
+@media screen and (max-width: 540px) {
+    #vikalpt{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .imageupdate{
+        height: 282px;
+        width: 500px;
+        border-radius: 95px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 414px) {
+    .imageupdate{
+        height: 276px;
+        width: 350px;
+        border-radius: 90px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 375px) {
+    .imageupdate{
+        height: 276px;
+        width: 350px;
+        border-radius: 90px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 360px) {
+    .imageupdate{
+        width: 316px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .imageupdate{
+        width: 233px;
+        height: 340px;
+        border-radius: 66px;
+    }
+}

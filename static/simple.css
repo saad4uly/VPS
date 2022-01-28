@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Petemoss&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+.center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.review{
+    font-size: 15px;
+    text-decoration: underline;
+    margin-top: -80px;
+    color: black;
+}
+
+.review a:hover{
+    color: gray;
+}
+.contact{
+    margin-top: 100px;
+    margin-bottom: -50px;
+    color: gray;
+    font-size: 32px;
+    font-family: bold;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #0b10a7;
+}
+
+#gallery{
+    margin-top: -48px;
+    color: gray;
+    font-size: 32px;
+    font-family: bold;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #0b10a7;
+}
+
+#vikalp-heading{
+    font-family: 'Tangerine', cursive;
+    font-size: 70px;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+#about{
+    margin-bottom: -70px;
+    color: #0b10a7;
+    font-size: 32px;
+    font-family: bold;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #0b10a7;
+}
+
+#testimonials{
+    margin-bottom: -50px;
+    color: gray;
+    font-size: 32px;
+    font-family: bold;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #0b10a7;
+}
+
+#footer{
+    margin-top: -90px;
+}
+
+#update{
+    margin-top: 64px;
+    margin-bottom: -52px;
+    color: grey;
+    font-size: 32px;
+    font-family: bold;
+    font-family: 'Sedgwick Ave', cursive;
+    color: #0b10a7;
+}
+
+#vikalp{
+    margin-top: -71px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 29px;
+    line-height: 1.8rem;
+    color: #8079f6;
+}
+
+#about-text{
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    color: #8079f6;
+}
+
+#about-text-t {
+    line-height: 24px;
+    font-family: 'Dongle', sans-serif;
+    color: #8079f6;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#about-text-u {
+    font-family: 'Dongle', sans-serif;
+    font-size: 31px;
+    line-height: 36px;
+    color: #8079f6;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    left: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: rgb(96, 96, 243);
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.centert{
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(103, 103, 243);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.imageupdate{
+    margin: 0px -8px;
+    height: 330px;
+    border-radius: 44px;
+}
+
+
+#vikalpt{
+    font-size: 24px;
+    color: #000122;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+
+.vt{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 18px;
+    text-decoration: underline;
+}
+
+.boxupdate{
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-bottom: -60px;
+    background-color: #9b82fc
+}
+
+#coverimage{
+    border-radius: 93px;
+    margin-top: -40px;
+} 
+
+#seemore{
+    color: black;
+    margin-top: -42px;
+    margin-bottom: 43px;
+    text-decoration: underline;
+    font-size: 14px;
+    display: none;
+}
+
+
+@media screen and (max-width: 769px) {
+    .imageupdate{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .vt{
+        font-size: 30px; 
+    }
+}
+@media screen and (max-width: 650px) {
+    #vikalpt{
+        margin-left: 50px;
+        margin-right: 50px;   
+        font-size: 20px;   
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    #coverimage{
+        margin-top: -150px;
+    }
+}
+@media screen and (max-width: 1279px) {
+    #vikalp-heading{
+        font-size: 62px;
+    }
+}
+  
+@media screen and (max-width: 769px) {
+    #vikalp-heading{
+        font-size: 80px;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    #coverimage{
+        margin-top: -75px;
+        border-radius: 65px;
+    }
+    #vikalptop{
+        margin-left: -3px;
+        margin-top: -19px;
+    }
+    #vikalp{
+        font-size: 18px;
+        line-height: 19px;
+        margin-top: -85px;
+    }
+}
+@media screen and (max-width: 280px) {
+    #coverimage{
+        border-radius: 35px;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    #vikalptop{
+        margin-left: -68px;
+        margin-top: -67px;
+    }
+    #vikalp-heading{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 414px) {
+    #coverimage{
+        margin-top: -50px;
+    }
+    #vikalp-heading{
+        font-size: 40px;
+        margin-top: -26px;
+    }
+}
+@media screen and (max-width: 540px) {
+    #coverimage{
+        margin-top: -60px;
+    }
+    #seemore{
+        display: block;
+    }
+}
+    @media screen and (max-width: 767px) {
+        #coverimage{
+            margin-top: -35px;
+        }
+    }
+      

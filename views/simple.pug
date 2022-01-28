@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../static/simple.css">
+    <link rel="stylesheet" href="../static/nav.css">
+</head>
+<body class="mobile">
+    <nav>
+        <div class="container nav-wrapper">
+            <div class="brand">
+                <a href="/"><img src="../static/Vikalp Public School-logos_transparent.png" height="50px" width="50px" alt=""></a>
+                <span><strong> <a class="vps" href="/"> VIKALP PUBLIC SCHOOL</a></strong></span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li class="active">
+                    <a href="/">Home</a>
+                </li>
+                <li><a href="/about#about">About Us</a></li>
+                <li>
+                    <a href="/trust">Vikalp Trust</a>
+                </li>
+                <li>
+                    <a href="/gallery#gallery">Gallery</a>
+                </li>
+                <li><a href="/testimonials#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li>
+                    <a class="btn" href="tel:+91 9868258570">Call Now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="text-gray-600 body-font " id="home">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" id="coverimage" alt="hero" src="../static/cover.jpg">
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center vikalptop">
+                <h1 class="title-font sm:text-5xl  text-3xl mb-24 font-bold text-blue-900" id="vikalp-heading">Vikalp Public  School</h1>
+                <p class="mb-8 leading-relaxed text-lg mt-0" id="vikalp">English Medium (CBSE Pattern) Public School in New Delhi which has been offering its services since 2002.Which is making the future of children with utmost sincerity and honesty to date.<span id="seemore-para">This school, over the years, has come to symbolize the, truest spirit of education to the task of maintaining an excellent standard of education. We have received unstinted co-operation of the staff in this arduous task, and the outcome has been consistent excellence shown by the students.</span> 
+                </p>
+                <button id="seemore" onclick="toggleHide()">Read</button>
+                <div class="flex justify-center" style="margin-top: -18px;">
+                    <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none font-bold hover:bg-blue-400 rounded text-xs"><a href="#update">Updates</a></button>
+                    <button class="ml-4 inline-flex text-white font-bold bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-400 rounded text-xs "><a href="https://drive.google.com/file/d/1fmGvR2awKoo1zMPUaIKUkpk2uJgJOZsr/view" target=_blank>Enroll Now</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font overflow-hidden" id="about">
+        <h1 class="center" id="about">About Us</h1>
+        <div class="container px-5 py-24 mx-auto">
+            <div class="-my-8 divide-y-2 divide-gray-100">
+                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-gray-700 text-2xl">Mission</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-xl font-medium text-gray-900 title-font mb-2 ">Our mission is to:-</h2>
+                        <p class="leading-relaxed text-base" id="about-text">*Nurture our students to realize their own potential.</p>
+                        <p class="leading-relaxed text-base" id="about-text">*Help in identify and achieve their goals in an environment of rich tutelage.</p>
+                        <p class="leading-relaxed text-base" id="about-text">*Our aim is to bring forth responsible citizens of the world who make a difference and make the school and nation proud.</p>
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-gray-700 text-2xl">Vision</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-xl font-medium text-gray-900 title-font mb-2">Our vision is to prepare our children for life by:-</h2>
+                        <p class="leading-relaxed text-base" id="about-text">* Helping them incorporate the essential values of goodness, honesty, humility and discipline as an integral part of their being.</p>
+                        <p class="leading-relaxed text-base" id="about-text">*Guiding them to become content individuals whose strength lies in their ability to face adversities without fear.</p>
+                        <p class="leading-relaxed text-base" id="about-text">*Broadening their horizons so that their  world encompasses the whole of mankind.</p>
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-gray-700 text-2xl">Focus</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-xl font-medium text-gray-900 title-font mb-2">Our focus on our student is to:-</h2>
+                        <p class="leading-relaxed text-base" id="about-text">*To engage students in a healthy environment of learning and self-development where the focus is on a strong value system.</p>
+                        <p class="leading-relaxed text-base" id="about-text">*To make the students responsible for those who are less fortunate.</p>
+                        <p class="leading-relaxed text-base" id="about-text">*To familiarize and equip the students with IT skills.</p>
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                        </a>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <div id="updatecolor">
+        <div class="center" id="update">Updates</div>
+        <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-12">
+                    <div class="p-12 md:w-1/2 flex flex-col items-start">
+                        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-2xl font-medium tracking-widest">Admission Open</span>
+                        <h2 class="sm:text-2xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Free Admission till 2nd of August 2022</h2>
+                        <p class="leading-relaxed mb-8 text-base" id="about-text-u">Hii!!!! to all. Vikalp Public School, has started admission in different clases. You may collect Prospectus and application form from school office between 9am to 2pm.</p>
+                        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                            <a class="text-black  inline-flex items-center text-xl">Posted on 12 January 2022
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            </span>
+                        </div>
+                        <a class="inline-flex items-center">
+                            <span class="flex-grow flex flex-col pl-4">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="p-12 md:w-1/2 flex flex-col items-start">
+                        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-2xl font-medium tracking-widest">Notice</span>
+                        <h2 class="sm:text-2xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Due to Lockdown</h2>
+                        <p class="leading-relaxed mb-8 text-base" id="about-text-u">Due to the lockdown, we have started online classes for all students, and if any students are having any doubts they can come to the school without any hesitation.</p>
+                        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+                            <a class="text-black inline-flex items-center text-xl">Posted on 12 January 2022
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                            </span>
+                            <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                                <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                </svg>
+                            </span>
+                        </div>
+                        <a class="inline-flex items-center">
+                            <span class="flex-grow flex flex-col pl-4">
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="text-gray-600 body-font" id="gallery">
+        <div class="container px-5 py-24 mx-auto ">
+            <div class="flex flex-col text-center w-full mb-4">
+                <h1 class="sm:text-3xl text-3xl font-medium title-font mb-4 text-gray-900" id="gallery">Gallery</h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative"><img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/600x360">
+                        <div class="px-0 py-0 relative z-10 w-full   bg-white  hover:opacity-100">
+                            <p class="leading-relaxed" id="image"><img src="../static/a.jpeg" alt=""></p>
+                            <h2 class=" text-base font-bold title-font text-black mb-1">Taekwondo Classes</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/601x361">
+                        <div class="px-0 py-0 relative z-10 w-full  bg-white hover:opacity-100">
+                            <p class="leading-relaxed"><img src="../static/aa.jpeg" alt=""></p>
+                            <h2 class=" text-base font-bold title-font text-black mb-1">Prayer Hall</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/603x363">
+                        <div class="px-0 py-0 relative z-10 w-full bg-white  hover:opacity-100">
+                            <p class="leading-relaxed"><img src="../static/b.jpeg" alt=""></p>
+                            <h2 class=" text-base font-bold title-font text-black mb-1">Nursery Class</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/602x362">
+                        <div class="px-0 py-0 relative z-10 w-full bg-white hover:opacity-100">
+                            <p class="leading-relaxed"><img src="../static/c.jpeg" alt=""></p>
+                            <h2 class=" text-base font-bold title-font text-black mb-1">Painting Competiton</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/605x365">
+                        <div class="px- py-0 relative z-10 w-full  bg-white  hover:opacity-100">
+                            <p class="leading-relaxed"><img src="../static/repub.jpeg" alt=""></p>
+                            <h2 class=" text-base font-bold title-font text-black mb-1">Republic Day Celebration</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://dummyimage.com/606x366">
+                        <div class="px-0 py-0 relative z-10 w-full bg-white  hover:opacity-100">
+                            <p class="leading-relaxed"><img src="../static/e.jpeg" alt=""></p>
+                            <h2 class="text-base font-bold title-font text-black mb-1">Teaching Namaz</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-gray-600 body-font" id="testimonials">
+        <h1 class="center" id="testimonials">Testimonials</h1>
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <p class="leading-relaxed text-black font-black text-sm" id="about-text-t">The teachers are very friendly, soft talking. Whenever I went there for Parent's Teacher's Meeting I always had a great experience. Principal Sir is a very supportive person. And rest staff members who work there are calm talkers as well.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-2 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-xl">Shahvez Shah</h2>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <p class="leading-relaxed text-black font-black text-sm" id="about-text-t">Great school apart from being an English school the academic infrastructure covers Islamic studies also. Teachers also enhance the English communicative skills of children which will gradually help them after school to cope up with our society.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-2 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-xl">Mohd Muneeb</h2>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4">
+                    <div class="h-full text-center">
+                        <p class="leading-relaxed text-black font-black text-sm" id="about-text-t">A complete school where students are given the freedom to stand ontheir own feet rather than relying on someone. Students are taught to be well-mannered and well-disciplined.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider  text-xl">Mehfooz Chaudhary</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="review center "><a href="https://www.google.com/search?q=vikalp%20public%20school&oq=vikalp+public+school&aqs=chrome.0.69i59j46i175i199i512j0i512j0i22i30l2.1281j0j7&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=AOaemvIcBXzqoIWwEU1r3c1fvVEj6l4ykA:1641842313419&rflfq=1&num=10&rldimm=2299499176307088278&lqi=ChR2aWthbHAgcHVibGljIHNjaG9vbJIBBnNjaG9vbA&ved=2ahUKEwiE6Pie86f1AhVwwTgGHRSeAcYQvS56BAgEECs&rlst=f#rlfi=hd:;si:2299499176307088278,l,ChR2aWthbHAgcHVibGljIHNjaG9vbJIBBnNjaG9vbA;mv:[[28.918630699999994,77.3266826],[28.549841599999997,76.56832729999999]];tbs:lrf:!1m4!1u2!2m2!2m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!2m1!1e2!2m1!1e16!3sIAE,lf:1,lf_ui:2"target="_blank">Write a review</a>
+        </h1>
+    </section>
+
+    <section class="text-gray-600 body-font relative" id="contact">
+        <h1 class="center contact">Contact Us</h1>
+        <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <iframe width="100%" height="100%" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" class="absolute inset-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14016.021914511872!2d77.2860564!3d28.5695982!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1fe976514d165b96!2sVikalp%20Public%20School!5e0!3m2!1sen!2sin!4v1641842840953!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                    <div class="lg:w-1/2 px-6">
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+                        <p class="mt-1">R-92 Jogabai Extension Okhla New Delhi</p>
+                    </div>
+                    <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                        <a class="text-indigo-500 leading-relaxed text-sm">vikalppublicschool412@email.com</a>
+                        <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                        <p class="leading-relaxed">+91 9868258570</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+                <form action="/contact" method="post" class="">
+                <div class="relative mb-4">
+                    <label for="name" class="leading-7 text-sm text-gray-600 myinput">Name</label>
+                    <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-600 myinput">Email Address</label>
+                    <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="phone" class="leading-7 text-sm text-gray-600 myinput">Phone Number</label>
+                    <input type="phone" id="phone" name="phone" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="message" class="leading-7 text-sm text-gray-600 myinput">Message</label>
+                    <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-gray-600 body-font" id="footer">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">2022 © Vikalp Public School, Okhla, All Rights Reserved
+            </p>
+            </a>
+            </span>
+        </div>
+    </footer>
+    </h1>
+    <script src="../static/nav.js"></script>
+</body>
+</html>
